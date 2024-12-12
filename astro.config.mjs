@@ -71,7 +71,7 @@ const redirects = {
 
 // Skip the marketing homepage for self-hosted users
 if (!isBossServer && isBossServer !== true) {
-  redirects['/'] = '/check';
+  
 }
 
 // Export Astro configuration
